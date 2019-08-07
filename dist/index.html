@@ -2,38 +2,45 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>Chalkline Wallboard Clocks</title>
+  <title>Digital Clock with Vue.js</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Share+Tech+Mono'>
 <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<div class="clock">
-	<div>
-	    <p class="date">{{ date }}</p>
-	    <p class="time">{{ time }}</p>
-	</div>
-	<div>
-	    <p class="date">{{ date }}</p>
-	    <p class="time">{{ time }}</p>
-	</div>
-	<div>
-	    <p class="date">{{ date }}</p>
-	    <p class="time">{{ time }}</p>
-	</div>
-	<div>
-	    <p class="date">{{ date }}</p>
-	    <p class="time">{{ time }}</p>
-	</div>
-	<div>
-	    <p class="date">{{ date }}</p>
-	    <p class="time">{{ time }}</p>
-	</div>
-	<div>
-	    <p class="date">{{ date }}</p>
-	    <p class="time">{{ time }}</p>
-	</div>
+
+<div class="Wrapper">
+    <div id="clock">
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="text">London</p>
+    </div>
+    <div id="clock2">
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="text">New York</p>
+    </div>
+    <div id="clock3">
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="text">Singapore/HK</p>
+    </div>
+    <div id="clock4">
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="text">Dubai</p>
+    </div>
+    <div id="clock5">
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="text">Los Angeles</p>
+    </div>
+    <div id="clock6">
+        <p class="date">{{ date }}</p>
+        <p class="time">{{ time }}</p>
+        <p class="text">India</p>
+    </div>
 </div>
 <!-- partial -->
   <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.3.4/vue.min.js'></script>
