@@ -2,19 +2,13 @@ html, body {
   height: 100%;
 }
 
-body {
-  background: #0f3854;
-  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
-  background-size: 100%;
-}
-
 p {
   margin: 0;
   padding: 0;
 }
 
 .Wrapper {
-  margin-top: 100px;
+  margin-top: 200px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -40,78 +34,72 @@ p {
 
 #clock {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+  color: #000000;
 }
 
 #clock2 {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+  color: #000000;
 }
 
 #clock3 {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+  color: #000000;
 }
 
 #clock4 {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+  color: #000000;
 }
 
 #clock5 {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+  color: #000000;
 }
 
 #clock6 {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
   position: relative;
   left: 50%;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #daf6ff;
-  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
+  color: #000000;
 }
