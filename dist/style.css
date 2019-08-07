@@ -13,37 +13,8 @@ p {
   padding: 0;
 }
 
-div { 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 0;
-  flex-shrink: 0;
-  flex-basis: 49.75%;
-  margin-bottom: .5%;  }
-
-div:nth-last-child(n+5):first-child,
-div:nth-last-child(n+5):first-child ~ *,
-
-div:nth-last-child(n+6):first-child,
-div:nth-last-child(n+6):first-child ~ * {
-
-  flex-basis: 33%;
-}
-
-div:nth-child(5):last-child {
-  margin-right: auto;
-  margin-left: .5%;
-} 
-
-div {
-  min-height: 100px;
-  font: 0.9rem Arial;
-  color: #fff;
-  background: #333; 
-}
-
 #clock {
+  display: grid;
   font-family: 'Share Tech Mono', monospace;
   color: #ffffff;
   text-align: center;
@@ -55,17 +26,16 @@ div {
   color: #daf6ff;
   text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
 }
-.time {
+#clock .time {
   letter-spacing: 0.05em;
   font-size: 80px;
   padding: 5px 0;
 }
-.date {
+#clock .date {
   letter-spacing: 0.1em;
   font-size: 24px;
 }
-
-.text {
+#clock .text {
   letter-spacing: 0.1em;
   font-size: 12px;
   padding: 20px 0 0;
