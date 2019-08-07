@@ -1,4 +1,4 @@
-# SVG clock UI
- _A Pen created at CodePen.io. Original URL: [https://codepen.io/icebob/pen/JYoQZg](https://codepen.io/icebob/pen/JYoQZg).
+# Digital Clock with Vue.js
+ _A Pen created at CodePen.io. Original URL: [https://codepen.io/gau/pen/LjQwGp](https://codepen.io/gau/pen/LjQwGp).
 
- SVG based clock UI design. Animated with GSAP.
+ 

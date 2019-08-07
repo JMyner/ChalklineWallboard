@@ -1,71 +1,41 @@
-@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900|Dosis:300,400,600,700,800|Droid+Sans:400,700|Lato:300,400,700,900|PT+Sans:400,700|Ubuntu:300,400,500,700|Open+Sans:400,300,600,700|Roboto:400,300,500,700,900|Roboto+Condensed:400,300,700|Open+Sans+Condensed:300,700|Play:400,700|Maven+Pro:400,500,700,900&subset=latin,latin-ext);
+html, body {
+  height: 100%;
+}
+
 body {
-  padding: 0;
-  margin: 0;
-  background-color: #222;
-  overflow: hidden;
-}
-
-svg {
-  position: absolute;
-  width: 800px;
-  height: 480px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSI2MCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiLz48c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMTU3NjkiLz48L2xpbmVhckdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+  background: #0f3854;
+  background: radial-gradient(ellipse at center, #0a2e38 0%, #000000 70%);
   background-size: 100%;
-  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(60%, #000000), color-stop(100%, #215769));
-  background-image: -moz-linear-gradient(#000000 60%, #215769 100%);
-  background-image: -webkit-linear-gradient(#000000 60%, #215769 100%);
-  background-image: linear-gradient(#000000 60%, #215769 100%);
-  -moz-border-radius: 10px;
-  -webkit-border-radius: 10px;
-  border-radius: 10px;
-  -moz-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
-  -webkit-box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
-  box-shadow: 0 0 50px rgba(0, 0, 0, 0.8);
 }
 
-.bgDot {
-  stroke: none;
-  fill: #215769;
+p {
+  margin: 0;
+  padding: 0;
 }
 
-.clockCircle {
-  fill: none;
-  stroke: #2a2a2a;
+#clock {
+  font-family: 'Share Tech Mono', monospace;
+  color: #ffffff;
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  color: #daf6ff;
+  text-shadow: 0 0 20px #0aafe6, 0 0 20px rgba(10, 175, 230, 0);
 }
-
-.clockArc {
-  fill: none;
-  stroke: #1bbccb;
+#clock .time {
+  letter-spacing: 0.05em;
+  font-size: 80px;
+  padding: 5px 0;
 }
-
-.clockDot {
-  fill: #e9fafc;
+#clock .date {
+  letter-spacing: 0.1em;
+  font-size: 24px;
 }
-
-.caption {
-  font-family: "Source Sans Pro";
-  font-weight: 300;
-  fill: White;
-}
-
-.dayText {
-  font-size: 1.7rem;
-}
-
-.dateText {
-  font-size: 2.5rem;
-  font-weight: 400;
-}
-
-.timeText {
-  font-family: "Open Sans";
-  font-size: 5rem;
-  font-weight: 600;
-  fill: White;
+#clock .text {
+  letter-spacing: 0.1em;
+  font-size: 12px;
+  padding: 20px 0 0;
 }
