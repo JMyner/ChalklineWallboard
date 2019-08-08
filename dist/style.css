@@ -17,7 +17,7 @@ p {
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
-  grid-gap: 120px;
+  grid-gap: 125px;
 }
 
 .text {
