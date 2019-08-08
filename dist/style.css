@@ -10,8 +10,8 @@ p {
 .Wrapper {
   margin-top: 200px;
   text-align: center;
-  display: flex;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: grid;
+  grid-template-columns: 1fr;
   grid-gap: 150px;
 }
 
