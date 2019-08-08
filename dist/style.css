@@ -2,6 +2,10 @@ html, body {
   height: 100%;
 }
 
+html {
+  overflow:hidden;
+}
+
 p {
   margin: 0;
   padding: 0;
