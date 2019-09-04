@@ -13,7 +13,7 @@ p {
 }
 
 .Wrapper {
-  margin-top: 200px;
+  margin-top: 50px;
   text-align: center;
   display: grid;
   grid-template-columns: 1fr;
