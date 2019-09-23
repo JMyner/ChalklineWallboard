@@ -37,6 +37,11 @@ p {
   font-size: 35px;
 }
 
+.offset {
+  font-size: 35px;
+  padding: 20px 0 0;
+}
+
 #clock {
   font-family: Segoe UI,Frutiger,Frutiger Linotype,Dejavu Sans,Helvetica Neue,Arial,sans-serif;
   color: #000000;
