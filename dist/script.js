@@ -65,29 +65,23 @@ function updateTime() {
     var la = new DateTime.fromObject({zone: 'America/los_Angeles'});
     var id = new DateTime.fromObject({zone: "Asia/Kolkata"});
     
-    clock.time = cd.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    clock.date = cd.weekdayShort + ' ' + cd.day + '-' + cd.month + '-' + cd.year;
-    clock.utcOffset = 'UTC: ' + formatOffset(cd);
+    clock.time = cd.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' }) 
+    clock.date = cd.weekdayShort + ' ' + cd.day + '-' + cd.month + '-' + cd.year + ' ' + 'UTC: ' + formatOffset(cd);
     
     clock2.time = me.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    clock2.date = me.weekdayShort + ' ' + me.day + '-' + me.month + '-' + me.year;
-    clock2.utcOffset = 'UTC: ' + formatOffset(me);
+    clock2.date = me.weekdayShort + ' ' + me.day + '-' + me.month + '-' + me.year + ' ' + 'UTC: ' + formatOffset(me);;
     
     clock3.time = shk.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    clock3.date = shk.weekdayShort + ' ' + shk.day + '-' + shk.month + '-' + shk.year;
-    clock3.utcOffset = 'UTC: ' + formatOffset(shk);
+    clock3.date = shk.weekdayShort + ' ' + shk.day + '-' + shk.month + '-' + shk.year + ' ' + 'UTC: ' + formatOffset(shk);
     
     clock4.time = dub.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    clock4.date = dub.weekdayShort + ' ' + dub.day + '-' + dub.month + '-' + dub.year;
-    clock4.utcOffset = 'UTC: ' + formatOffset(dub);
+    clock4.date = dub.weekdayShort + ' ' + dub.day + '-' + dub.month + '-' + dub.year + ' ' + 'UTC: ' + formatOffset(dub);
     
     clock5.time = la.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    clock5.date = la.weekdayShort + ' ' + la.day + '-' + la.month + '-' + la.year;
-    clock5.utcOffset = 'UTC: ' + formatOffset(la);
+    clock5.date = la.weekdayShort + ' ' + la.day + '-' + la.month + '-' + la.year + ' ' + 'UTC: ' + formatOffset(la);
     
     clock6.time = id.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
-    clock6.date = id.weekdayShort + ' ' + id.day + '-' + id.month + '-' + id.year;
-    clock6.utcOffset = 'UTC: ' + formatOffset(id);
+    clock6.date = id.weekdayShort + ' ' + id.day + '-' + id.month + '-' + id.year + ' ' + 'UTC: ' + formatOffset(id);
 };
 
 function formatOffset (DateTime) {
