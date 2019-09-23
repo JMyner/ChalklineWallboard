@@ -79,6 +79,7 @@ function updateTime() {
     clock4.time = dub.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
     clock4.date = dub.day + '-' + dub.month + '-' + dub.year + '  ' + 'UTC' + formatOffset(dub);
     changeColor(dub, '4');
+    workWeek(dub, '4');
     
     clock5.time = la.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
     clock5.date = la.day + '-' + la.month + '-' + la.year + '  ' + 'UTC' + formatOffset(la);
@@ -117,5 +118,13 @@ function changeColor (DateTime, clockNo) {
         id = 'clock' + clockNo;
         var el = document.getElementById(id);
         el.style.color = "#6b6b6b";
+    }
+}
+
+function workWeek (DateTime, clockNo) {
+    if (DateTime.weekdayLong == 'Friday') {
+        id = 'clock' + clockNo;
+        var el = document.getElementById(id);
+        el.style.color = "#6b6b6b"
     }
 }
