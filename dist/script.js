@@ -113,7 +113,7 @@ function formatOffset (DateTime) {
 }
 
 function changeColor (DateTime, clockNo) {
-    if (DateTime.hour < 8 || DateTime.hour > 18) {
+    if (DateTime.hour < 8 || DateTime.hour >= 18) {
         id = 'clock' + clockNo;
         var el = document.getElementById(id);
         el.style.color = "#6b6b6b";
