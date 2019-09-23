@@ -54,7 +54,6 @@ var clock6 = new Vue({
     }
 });
 
-var week = ['SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT'];
 var timerID = setInterval(updateTime, 1000);
 updateTime();
 function updateTime() {
@@ -67,21 +66,27 @@ function updateTime() {
     
     clock.time = cd.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' }) 
     clock.date = cd.day + '-' + cd.month + '-' + cd.year + '  ' + 'UTC' + formatOffset(cd);
+    changeColor(cd, '');
     
     clock2.time = me.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
     clock2.date = me.day + '-' + me.month + '-' + me.year + '  ' + 'UTC' + formatOffset(me);
+    changeColor(me, '2');
     
     clock3.time = shk.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
     clock3.date = shk.day + '-' + shk.month + '-' + shk.year + '  ' + 'UTC' + formatOffset(shk);
+    changeColor(shk, '3');
     
     clock4.time = dub.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
     clock4.date = dub.day + '-' + dub.month + '-' + dub.year + '  ' + 'UTC' + formatOffset(dub);
+    changeColor(dub, '4');
     
     clock5.time = la.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
     clock5.date = la.day + '-' + la.month + '-' + la.year + '  ' + 'UTC' + formatOffset(la);
+    changeColor(la, '5');
     
     clock6.time = id.toLocaleString({ hour: '2-digit', minute: '2-digit', second: '2-digit' });
     clock6.date = id.day + '-' + id.month + '-' + id.year + '  ' + 'UTC' + formatOffset(id);
+    changeColor(id, '6');
 };
 
 function formatOffset (DateTime) {
@@ -105,4 +110,12 @@ function formatOffset (DateTime) {
 
     // Timezone difference in hours and minutes
     return timezone_standard 
+}
+
+function changeColor (DateTime, clockNo) {
+    if (DateTime.hour < 7 || DateTime.hour > 19) {
+        id = 'clock' + clockNo;
+        var el = document.getElementById(id);
+        el.style.color = "#6b6b6b";
+    }
 }

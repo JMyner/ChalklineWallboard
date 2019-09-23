@@ -52,7 +52,6 @@ p {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #000000;
 }
 
 #clock2 {
@@ -64,7 +63,6 @@ p {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #000000;
 }
 
 #clock3 {
@@ -76,7 +74,6 @@ p {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #000000;
 }
 
 #clock4 {
@@ -88,7 +85,6 @@ p {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #000000;
 }
 
 #clock5 {
@@ -100,7 +96,6 @@ p {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #000000;
 }
 
 #clock6 {
@@ -112,5 +107,4 @@ p {
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-  color: #000000;
 }
