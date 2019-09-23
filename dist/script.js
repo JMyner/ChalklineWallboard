@@ -54,7 +54,7 @@ var clock6 = new Vue({
     }
 });
 
-var timerID = setInterval(updateTime, 1000);
+var timerID = setInterval(updateTime, 300);
 updateTime();
 function updateTime() {
     var cd = new DateTime.local();
