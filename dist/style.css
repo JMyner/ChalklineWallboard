@@ -12,6 +12,10 @@ p {
   padding: 0;
 }
 
+.peek {
+  text-align: center;
+}
+
 .Wrapper {
   margin-top: 125px;
   text-align: center;
