@@ -117,7 +117,7 @@ function changeColor (DateTime, clockNo) {
     if (DateTime.hour < 8 || DateTime.hour >= 18) {
         id = 'clock' + clockNo;
         var el = document.getElementById(id);
-        el.style.color = "#6b6b6b";
+        el.style.color = "#be6d0a";
     }
 }
 
@@ -125,6 +125,6 @@ function workWeek (DateTime, clockNo) {
     if (DateTime.weekdayLong == 'Friday') {
         id = 'clock' + clockNo;
         var el = document.getElementById(id);
-        el.style.color = "#6b6b6b"
+        el.style.color = "#be6d0a";
     }
 }
